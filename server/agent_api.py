@@ -48,11 +48,31 @@ def api_compare(body: CompareBody):
     vehicles = load_vehicles()
     results = []
     for vid in body.vehicle_ids[:3]:
-        v = next((x for x in vehicles if vehicle_slug(x) == vid.strip()), None)
-        if v:
-            results.append(v)
+        vid_lower = vid.strip().lower()
+        vid_compact = vid_lower.replace(" ", "")
+        
+        # Hàm tìm linh hoạt mờ
+        found = None
+        for x in vehicles:
+            slug = vehicle_slug(x)
+            model = str(x.get("model", "")).lower()
+            if slug == vid_lower:
+                found = x
+                break
+            elif slug.startswith(vid_compact) or slug.startswith(vid_lower):
+                found = x
+                break
+            elif vid_lower in model or vid_compact in model.replace(" ", ""):
+                found = x
+                break
+        
+        if found:
+            # Avoid duplicates if AI sends identical IDs
+            if not any(vehicle_slug(r) == vehicle_slug(found) for r in results):
+                results.append(found)
+
     if len(results) < 2:
-        return {"error": "Cần ít nhất 2 mã xe hợp lệ để so sánh."}
+        return {"error": f"Cần ít nhất 2 mã xe hợp lệ để so sánh. Mã LLM gửi: {body.vehicle_ids}"}
     return {"vehicles": results}
 
 
