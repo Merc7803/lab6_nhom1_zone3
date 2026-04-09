@@ -24,7 +24,7 @@ app.add_middleware(
 
 
 class RecommendBody(BaseModel):
-    budget_million_max: int = Field(ge=50)
+    budget_million_max: int = Field(ge=10)
     family_size: int = Field(default=5, ge=1, le=9)
     usage: str = "balanced"
     km_per_month: int = 0
