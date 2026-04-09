@@ -3,469 +3,907 @@
     {
       "model": "VF 3",
       "variant": "Standard",
-      "segment": "SUV compact",
-      "price_million": 283,
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 299.0,
       "type": "car",
-      "color": ["Trắng Pearl", "Đen Obsidian", "Xám Titanium", "Xanh Ocean", "Đỏ Radiant"],
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-3/",
+      "color": [
+        "Đỏ",
+        "Xanh Lá Nhất",
+        "Xám",
+        "Xanh Nóc Trắng",
+        "Trắng",
+        "Vàng",
+        "Hồng Phấn"
+      ],
       "seats": 5,
-      "battery_kwh": 40,
-      "range_km": 200,
-      "motor_power_hp": 30,
-      "drivetrain": "RWD",
-      "dimensions": "4238 x 1750 x 1609 mm",
-      "trunk_liters": 422,
-      "charging_time_dc": "24 phút (10%-70%)",
-      "charging_time_ac": "9-10 giờ",
-      "monthly_charging_cost_vnd": 900000,
-      "family_size_min": 2,
-      "family_size_max": 4,
-      "use_cases": ["đi phố", "gia định nhỏ", "di chuyển hàng ngày"],
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
       "features": [
-        "Màn hình 10.25 inch",
-        "ADAS cơ bản (cảnh báo va chạm, giữ làn đường)",
-        "Camera 360°",
-        "Ghế chỉnh điện",
-        "Kết nối Apple CarPlay / Android Auto"
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Xanh Lá Nhất, Xám, Xanh Nóc Trắng, Trắng"
       ],
       "pros": [
-        "Giá cả phải chăng",
-        "Tiết kiệm điện",
-        "Quãng đường tôn giáo hợp lý",
-        "Ngoại hình đẹp mắt"
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
       ],
       "cons": [
-        "Quãng đường không tới 300km",
-        "Công suất động cơ khiêm tốn",
-        "Không phù hợp chuyến đường dài"
-      ]
-    },
-    {
-      "model": "Minio Green",
-      "variant": "Entry",
-      "segment": "SUV compact",
-      "price_million": 252,
-      "type": "car",
-      "color": ["Trắng Glacier", "Đen Midnight", "Xám Cosmic", "Xanh Electric"],
-      "seats": 5,
-      "battery_kwh": 32,
-      "range_km": 150,
-      "motor_power_hp": 25,
-      "drivetrain": "RWD",
-      "dimensions": "4100 x 1720 x 1580 mm",
-      "trunk_liters": 380,
-      "charging_time_dc": "20 phút (10%-70%)",
-      "charging_time_ac": "8 giờ",
-      "monthly_charging_cost_vnd": 750000,
-      "family_size_min": 2,
-      "family_size_max": 4,
-      "use_cases": ["học sinh", "nhân viên văn phòng", "di chuyển trong thành phố"],
-      "features": [
-        "Màn hình 8 inch",
-        "Ghế vải thoáng khí",
-        "Gương chỉnh điện",
-        "Điều hòa tự động",
-        "Cảm biến áp suất lốp"
-      ],
-      "pros": [
-        "Giá rẻ nhất trong dòng",
-        "Tiết kiệm năng lượng",
-        "Dễ lái cho học viên mới",
-        "Bảo trì chi phí thấp"
-      ],
-      "cons": [
-        "Quãng đường ngắn nhất (150km)",
-        "Trang bị cơ bản",
-        "Không phù hợp gia đình lớn"
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
       ]
     },
     {
       "model": "VF 5",
-      "variant": "Eco",
-      "segment": "SUV nhỏ gọn",
-      "price_million": 497,
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 529.0,
       "type": "car",
-      "color": ["Trắng Pearl", "Đen Obsidian", "Xám Titanium", "Xanh Ocean", "Cam Dynamic"],
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-5/",
+      "color": [
+        "Đỏ",
+        "Xám",
+        "Trắng",
+        "Vàng",
+        "Xanh Lá Nhất",
+        "Xanh Nóc Trắng"
+      ],
       "seats": 5,
-      "battery_kwh": 50,
-      "range_km": 220,
-      "motor_power_hp": 35,
-      "drivetrain": "RWD",
-      "dimensions": "4220 x 1800 x 1600 mm",
-      "trunk_liters": 460,
-      "charging_time_dc": "30 phút (10%-70%)",
-      "charging_time_ac": "11 giờ",
-      "monthly_charging_cost_vnd": 1100000,
-      "family_size_min": 2,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
       "family_size_max": 5,
-      "use_cases": ["gia đình trẻ", "đi chơi cuối tuần", "di chuyển hàng ngày"],
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
       "features": [
-        "Màn hình 10.25 inch",
-        "Ghế da tổng hợp",
-        "Sunroof",
-        "Hệ thống âm thanh 6 loa",
-        "Camera lùi có lưới hướng dẫn"
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Xám, Trắng, Vàng, Xanh Lá Nhất"
       ],
       "pros": [
-        "Quãng đường vừa phải (220km)",
-        "Công suất tốt",
-        "Trang bị hiện đại",
-        "Thoải mái cho gia đình"
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
       ],
       "cons": [
-        "Giá cao hơn VF3",
-        "Chi phí sạc cao",
-        "Chưa đủ cho chuyến dài"
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
       ]
     },
     {
       "model": "VF 6",
-      "variant": "Plus",
-      "segment": "SUV cỡ trung",
-      "price_million": 647,
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 689.0,
       "type": "car",
-      "color": ["Trắng Crystal", "Đen Elegance", "Xám Magnetic", "Xanh Navy", "Đỏ Passion"],
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-6/",
+      "color": [
+        "Đỏ",
+        "Xanh Lá Nhất",
+        "Xám",
+        "Trắng"
+      ],
       "seats": 5,
-      "battery_kwh": 59.6,
-      "range_km": 250,
-      "motor_power_hp": 40,
-      "drivetrain": "RWD",
-      "dimensions": "4238 x 1850 x 1610 mm",
-      "trunk_liters": 500,
-      "charging_time_dc": "35 phút (10%-70%)",
-      "charging_time_ac": "12 giờ",
-      "monthly_charging_cost_vnd": 1300000,
-      "family_size_min": 2,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
       "family_size_max": 5,
-      "use_cases": ["gia đình 5 người", "chuyến đi cuối tuần", "công vụ"],
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
       "features": [
-        "Màn hình 12.3 inch",
-        "Ghế da cao cấp",
-        "Sunroof toàn cảnh",
-        "Sạc không dây điện thoại",
-        "ADAS nâng cao (tự động vào lane)"
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Xanh Lá Nhất, Xám, Trắng"
       ],
       "pros": [
-        "Quãng đường dài (250km)",
-        "Ngoại hình cao cấp",
-        "Trang bị đầy đủ",
-        "Thoải mái và yên tĩnh"
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
       ],
       "cons": [
-        "Giá cao",
-        "Chi phí sạc cao",
-        "Vẫn chưa đủ cho chuyến xa"
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
       ]
     },
     {
       "model": "VF 7",
-      "variant": "Premium",
-      "segment": "SUV cỡ lớn",
-      "price_million": 751,
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 799.0,
       "type": "car",
-      "color": ["Trắng Pearl", "Đen Deep", "Xám Graphite", "Xanh Sapphire", "Vàng Champagne"],
-      "seats": 7,
-      "battery_kwh": 70,
-      "range_km": 280,
-      "motor_power_hp": 45,
-      "drivetrain": "RWD",
-      "dimensions": "4740 x 1900 x 1650 mm",
-      "trunk_liters": 650,
-      "charging_time_dc": "40 phút (10%-70%)",
-      "charging_time_ac": "13 giờ",
-      "monthly_charging_cost_vnd": 1500000,
-      "family_size_min": 4,
-      "family_size_max": 7,
-      "use_cases": ["gia đình lớn", "chuyến du lịch", "chở khách"],
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-7/",
+      "color": [
+        "Đỏ",
+        "Xám",
+        "Xanh Lá Nhất",
+        "Trắng"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
       "features": [
-        "Màn hình 12.8 inch",
-        "Ghế da premium 7 chỗ",
-        "Khoang trần cỏ",
-        "Hệ thống khí hòa sophisiticated",
-        "Phanh tay điện tử",
-        "Kết nối 5G"
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Xám, Xanh Lá Nhất, Trắng"
       ],
       "pros": [
-        "7 chỗ ngồi thoải mái",
-        "Quãng đường tốt (280km)",
-        "Trang bị siêu cao cấp",
-        "Mạnh mẽ và ổn định"
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
       ],
       "cons": [
-        "Giá đắt nhất (tương đương)",
-        "Tiêu thụ nhiên liệu cao",
-        "Khó tìm chỗ đỗ"
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
       ]
     },
     {
       "model": "VF 8",
-      "variant": "Plus",
-      "segment": "SUV cỡ trung-lớn",
-      "price_million": 917,
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 1019.0,
       "type": "car",
-      "color": ["Trắng Premium", "Đen Midnight", "Xám Platinum", "Xanh Mystique", "Đỏ Fiery"],
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-8/",
+      "color": [
+        "Đỏ",
+        "Xám",
+        "Xanh Lá Nhất",
+        "Trắng"
+      ],
       "seats": 5,
-      "battery_kwh": 75,
-      "range_km": 300,
-      "motor_power_hp": 50,
-      "drivetrain": "RWD/AWD",
-      "dimensions": "4710 x 1910 x 1670 mm",
-      "trunk_liters": 580,
-      "charging_time_dc": "45 phút (10%-70%)",
-      "charging_time_ac": "14 giờ",
-      "monthly_charging_cost_vnd": 1700000,
-      "family_size_min": 2,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
       "family_size_max": 5,
-      "use_cases": ["những người thích tốc độ", "chuyến dài", "off-road nhẹ"],
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
       "features": [
-        "Màn hình 13.6 inch",
-        "Bộ ghế da nappa",
-        "Giáp gió kép",
-        "Hệ thống Harman Kardon",
-        "Chế độ lái tùy chỉnh",
-        "Sạc nhanh xToàn thời"
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Xám, Xanh Lá Nhất, Trắng"
       ],
       "pros": [
-        "Quãng đường xa nhất(300km)",
-        "Hiệu suất cao",
-        "Mạnh mẽ và linh hoạt",
-        "Trang bị cao cấp"
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
       ],
       "cons": [
-        "Giá rất cao",
-        "Tiêu thụ điện nhiều",
-        "Chỉ 5 chỗ ngồi"
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
       ]
     },
     {
       "model": "VF 9",
-      "variant": "Luxury",
-      "segment": "Flagship SUV",
-      "price_million": 1349,
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 1499.0,
       "type": "car",
-      "color": ["Trắng Luxury", "Đen Onyx", "Xám Metallic", "Xanh Royal", "Vàng Gold"],
-      "seats": 6,
-      "battery_kwh": 101,
-      "range_km": 350,
-      "motor_power_hp": 70,
-      "drivetrain": "AWD",
-      "dimensions": "5060 x 1980 x 1700 mm",
-      "trunk_liters": 750,
-      "charging_time_dc": "50 phút (10%-70%)",
-      "charging_time_ac": "15 giờ",
-      "monthly_charging_cost_vnd": 2000000,
-      "family_size_min": 3,
-      "family_size_max": 6,
-      "use_cases": ["lãnh đạo", "chuyên chở", "du lịch sang trọng"],
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-9/",
+      "color": [
+        "Đỏ",
+        "Xám",
+        "Xanh Lá Nhất",
+        "Trắng"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
       "features": [
-        "Màn hình 14.6 inch tương tác",
-        "Ghế da 6 chỗ hạng nhất",
-        "Tích hợp AI tương tác",
-        "Hệ thống âm thanh 12 loa",
-        "Cửa sổ toàn panoramic",
-        "Sạc nhanh siêu mạnh"
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Xám, Xanh Lá Nhất, Trắng"
       ],
       "pros": [
-        "Quãng đường siêu dài (350km)",
-        "Công suất cao nhất",
-        "Ngoại hình ấn tượng",
-        "Trang bị không đối thủ"
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
       ],
       "cons": [
-        "Giá bán sang VIP",
-        "Chi phí bảo dưỡng cao",
-        "Tỷ lệ mất giá nhanh"
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
       ]
     },
     {
-      "model": "Motio",
+      "model": "VF Wild",
       "variant": "Standard",
-      "segment": "Xe máy Pico",
-      "price_million": 12,
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-wild/",
+      "color": [
+        "Đỏ"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "VF MPV 7",
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 819.0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-vf-mpv-7/",
+      "color": [
+        "Đỏ"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình",
+        "chở nhiều người"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "Limo Green",
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 749.0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-limo-green/",
+      "color": [
+        "Đỏ",
+        "Vàng"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình",
+        "kinh doanh dịch vụ"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Vàng"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "EC Van",
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 285.0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-ec-van/",
+      "color": [
+        "Đỏ",
+        "Vàng",
+        "Trắng"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình",
+        "giao hàng"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ, Vàng, Trắng"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "Minio Green",
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 269.0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-minio-green/",
+      "color": [
+        "Đỏ"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình",
+        "kinh doanh dịch vụ"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "Herio Green",
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 499.0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-herio-green/",
+      "color": [
+        "Đỏ"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình",
+        "kinh doanh dịch vụ"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "Nerio Green",
+      "variant": "Standard",
+      "segment": "Minicar (xe điện mini đô thị)",
+      "price_million": 668.0,
+      "type": "car",
+      "url": "https://vinfastvietnam.com.vn/product/vinfast-nerio-green/",
+      "color": [
+        "Đỏ"
+      ],
+      "seats": 5,
+      "battery_kwh": 18.64,
+      "range_km": 215,
+      "motor_power_hp": 0,
+      "drivetrain": "",
+      "dimensions": "3.190 x 1.679 x 1.622 mm",
+      "trunk_liters": 0,
+      "charging_time_dc": "khoảng 30 - 36 phút",
+      "charging_time_ac": "",
+      "monthly_charging_cost_vnd": 800000,
+      "family_size_min": 1,
+      "family_size_max": 5,
+      "use_cases": [
+        "đi phố",
+        "di chuyển hàng ngày",
+        "gia đình",
+        "kinh doanh dịch vụ"
+      ],
+      "features": [
+        "Sạc nhanh 10-70%: khoảng 30 - 36 phút",
+        "Bảo hành xe: 7 năm hoặc 160.000 km",
+        "Bảo hành pin: 8 năm hoặc 160.000 km",
+        "Chiều dài cơ sở: 2.075 mm",
+        "Màu sắc: Đỏ"
+      ],
+      "pros": [
+        "5 chỗ ngồi",
+        "Tầm hoạt động khoảng 215 km/lần sạc",
+        "Hỗ trợ sạc nhanh khoảng 30 - 36 phút",
+        "Bảo hành xe 7 năm hoặc 160.000 km"
+      ],
+      "cons": [
+        "Thiếu thông tin tiền cọc trong nguồn dữ liệu",
+        "Nhiều thông số cần kiểm chứng lại từ nguồn chính thức"
+      ]
+    },
+    {
+      "model": "AMIO",
+      "variant": "Standard",
+      "segment": "Học sinh, di chuyển nội thành",
+      "price_million": 13.9,
       "type": "motobike",
-      "color": ["Đen Classic", "Trắng Clean", "Xám Urban"],
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-vinfast-amio",
+      "color": [
+        "Đỏ",
+        "Trắng",
+        "Xám",
+        "Đen",
+        "Xanh"
+      ],
       "seats": 1,
-      "battery_kwh": 1.7,
-      "range_km": 80,
-      "motor_power_hp": 4,
-      "drivetrain": "Bánh sau",
-      "dimensions": "1600 x 650 x 1100 mm",
-      "trunk_liters": 20,
+      "battery_kwh": 1.024,
+      "range_km": 65,
+      "motor_power_hp": 0.5,
+      "drivetrain": "Inhub",
+      "dimensions": "1715 x 690 x 1050 mm",
+      "trunk_liters": 12,
       "charging_time_dc": "N/A",
-      "charging_time_ac": "3-4 giờ",
-      "monthly_charging_cost_vnd": 200000,
+      "charging_time_ac": "Khoảng 6h (từ 0% đến 100%)",
+      "monthly_charging_cost_vnd": 150000,
       "family_size_min": 1,
       "family_size_max": 1,
-      "use_cases": ["học sinh", "di chuyển ngắn", "xe dự phòng"],
+      "use_cases": [
+        "Học sinh",
+        "di chuyển nội thành"
+      ],
       "features": [
-        "Gọi nhẹ",
-        "Dễ giữ gìn",
-        "Tiết kiệm điện",
-        "Thiết kế hiện đại"
+        "Pin: LFP",
+        "Tốc độ tối đa: 30 km/h",
+        "Thời gian sạc: Khoảng 6h (từ 0% đến 100%)",
+        "Cốp xe: 12L",
+        "Chuẩn kháng nước: IP67"
       ],
       "pros": [
-        "Giá rẻ nhất",
-        "Tiết kiệm điện tối đa",
-        "Gọn gàng",
-        "Di chuyển trong thành phố"
+        "Tầm hoạt động khoảng 65 km/lần sạc",
+        "Sử dụng pin LFP",
+        "Kháng nước IP67",
+        "Cốp xe 12L"
       ],
       "cons": [
-        "Quãng đường ngắn",
-        "Chỉ chở 1 người",
-        "Không phù hợp xa tải"
+        "Tốc độ phù hợp di chuyển nội đô, hạn chế cho nhu cầu đi xa",
+        "Trang bị phanh ở mức cơ bản",
+        "Thiếu thông tin tiền cọc trên nguồn dữ liệu"
       ]
     },
     {
-      "model": "Flazz",
-      "variant": "Base",
+      "model": "EVO Lite Neo",
+      "variant": "Standard",
       "segment": "Xe máy điện",
-      "price_million": 15.5,
+      "price_million": 14.4,
       "type": "motobike",
-      "color": ["Đen Gloss", "Trắng Matte", "Xám Satin", "Xanh Sport"],
-      "seats": 1,
-      "battery_kwh": 2.1,
-      "range_km": 100,
-      "motor_power_hp": 5,
-      "drivetrain": "Bánh sau",
-      "dimensions": "1700 x 700 x 1120 mm",
+      "url": "https://shop.vinfastauto.com/vn_vi/xe-may-dien-evo-lite-neo.html",
+      "color": [
+        "Đen nhám",
+        "Đỏ tươi",
+        "Xanh tím than",
+        "Xanh rêu",
+        "Trắng ngọc trai"
+      ],
+      "seats": 2,
+      "battery_kwh": 1.26,
+      "range_km": 78,
+      "motor_power_hp": 1.6,
+      "drivetrain": "Inhub",
+      "dimensions": "1806 x 678 x 1132 mm",
+      "trunk_liters": 17,
+      "charging_time_dc": "N/A",
+      "charging_time_ac": "Sạc 220W - 10h đạt 100%",
+      "monthly_charging_cost_vnd": 150000,
+      "family_size_min": 1,
+      "family_size_max": 2,
+      "use_cases": [
+        "di chuyển nội thành"
+      ],
+      "features": [
+        "Pin: 5 bình ắc quy 12V - 21Ah mắc nối tiếp",
+        "Tốc độ tối đa: 49 km/h",
+        "Thời gian sạc: Sạc 220W - 10h đạt 100%",
+        "Cốp xe: 17L",
+        "Chuẩn kháng nước: IP67",
+        "Chế độ lái: 2 chế độ lái: Eco & Sport"
+      ],
+      "pros": [
+        "Tầm hoạt động khoảng 78 km/lần sạc",
+        "Sử dụng pin 5 bình ắc quy 12V - 21Ah mắc nối tiếp",
+        "Kháng nước IP67",
+        "Cốp xe 17L"
+      ],
+      "cons": [
+        "Tốc độ phù hợp di chuyển nội đô, hạn chế cho nhu cầu đi xa",
+        "Trang bị phanh ở mức cơ bản",
+        "Thiếu thông tin tiền cọc trên nguồn dữ liệu"
+      ]
+    },
+    {
+      "model": "ZGOO",
+      "variant": "Standard",
+      "segment": "Xe máy điện",
+      "price_million": 15.9,
+      "type": "motobike",
+      "url": "https://shop.vinfastauto.com/vn_vi/xe-may-dien-zgoo.html",
+      "color": [
+        "Đỏ tươi",
+        "Đen nhám",
+        "Đen bóng",
+        "Xanh rêu",
+        "Trắng ngọc trai"
+      ],
+      "seats": 2,
+      "battery_kwh": 1.2,
+      "range_km": 70,
+      "motor_power_hp": 0.8,
+      "drivetrain": "Inhub",
+      "dimensions": "1720 x 700 x 1050 mm",
+      "trunk_liters": 14,
+      "charging_time_dc": "N/A",
+      "charging_time_ac": "Khoảng 6h30 phút (từ 0% đến 100%)",
+      "monthly_charging_cost_vnd": 150000,
+      "family_size_min": 1,
+      "family_size_max": 2,
+      "use_cases": [
+        "di chuyển nội thành"
+      ],
+      "features": [
+        "Pin: LFP",
+        "Tốc độ tối đa: 39 km/h",
+        "Thời gian sạc: Khoảng 6h30 phút (từ 0% đến 100%)",
+        "Cốp xe: 14L",
+        "Chuẩn kháng nước: IP67",
+        "Chế độ lái: 2 chế độ lái: Eco - Êm ái và Sport - Mạnh mẽ"
+      ],
+      "pros": [
+        "Tầm hoạt động khoảng 70 km/lần sạc",
+        "Sử dụng pin LFP",
+        "Kháng nước IP67",
+        "Cốp xe 14L"
+      ],
+      "cons": [
+        "Tốc độ phù hợp di chuyển nội đô, hạn chế cho nhu cầu đi xa",
+        "Trang bị phanh ở mức cơ bản",
+        "Thiếu thông tin tiền cọc trên nguồn dữ liệu"
+      ]
+    },
+    {
+      "model": "FLAZZ",
+      "variant": "Standard",
+      "segment": "Xe máy điện",
+      "price_million": 16.9,
+      "type": "motobike",
+      "url": "https://shop.vinfastauto.com/vn_vi/xe-may-dien-flazz.html",
+      "color": [
+        "Đỏ tươi",
+        "Đen nhám",
+        "Đen bóng",
+        "Xanh rêu",
+        "Trắng ngọc trai"
+      ],
+      "seats": 2,
+      "battery_kwh": 1.2,
+      "range_km": 135,
+      "motor_power_hp": 0.8,
+      "drivetrain": "Inhub",
+      "dimensions": "1745 x 700 x 1050 mm",
+      "trunk_liters": 14,
+      "charging_time_dc": "N/A",
+      "charging_time_ac": "Khoảng 6h30 phút (từ 0% đến 100%)",
+      "monthly_charging_cost_vnd": 100000,
+      "family_size_min": 1,
+      "family_size_max": 2,
+      "use_cases": [
+        "di chuyển nội thành"
+      ],
+      "features": [
+        "Pin: LFP",
+        "Tốc độ tối đa: 39 km/h",
+        "Thời gian sạc: Khoảng 6h30 phút (từ 0% đến 100%)",
+        "Cốp xe: 14L (8L khi lắp pin phụ)",
+        "Chuẩn kháng nước: IP67",
+        "Linh hoạt nâng cấp 02 pin"
+      ],
+      "pros": [
+        "Tầm hoạt động khoảng 135 km/lần sạc",
+        "Sử dụng pin LFP",
+        "Kháng nước IP67",
+        "Cốp xe 14L (8L khi lắp pin phụ)"
+      ],
+      "cons": [
+        "Tốc độ phù hợp di chuyển nội đô, hạn chế cho nhu cầu đi xa",
+        "Trang bị phanh ở mức cơ bản",
+        "Thiếu thông tin tiền cọc trên nguồn dữ liệu"
+      ]
+    },
+    {
+      "model": "EVO Grand Lite",
+      "variant": "Standard",
+      "segment": "Xe máy điện",
+      "price_million": 18.9,
+      "type": "motobike",
+      "url": "https://shop.vinfastauto.com/vn_vi/xe-may-dien-evo-grand-lite.html",
+      "color": [
+        "Trắng ngọc trai",
+        "Đen nhám",
+        "Lavender Sữa",
+        "Vàng"
+      ],
+      "seats": 2,
+      "battery_kwh": 2.4,
+      "range_km": 198,
+      "motor_power_hp": 2.5,
+      "drivetrain": "Inhub",
+      "dimensions": "",
       "trunk_liters": 35,
       "charging_time_dc": "N/A",
-      "charging_time_ac": "4-5 giờ",
-      "monthly_charging_cost_vnd": 250000,
+      "charging_time_ac": "Khoảng 6 giờ 30 phút (từ 0 đến 100%)",
+      "monthly_charging_cost_vnd": 100000,
       "family_size_min": 1,
-      "family_size_max": 1,
-      "use_cases": ["sinh viên", "nhân viên văn phòng", "di chuyển mix"],
+      "family_size_max": 2,
+      "use_cases": [
+        "di chuyển nội thành"
+      ],
       "features": [
-        "Màn hình kỹ thuật số",
-        "Chế độ eco & sport",
-        "GPS tích hợp",
-        "Cảm biến áp suất lốp"
+        "Pin: LFP",
+        "Tốc độ tối đa: 48 km/h",
+        "Thời gian sạc: Khoảng 6 giờ 30 phút (từ 0 đến 100%)",
+        "Cốp xe: 35L",
+        "Chuẩn kháng nước: IP67",
+        "Hệ thống đèn: Hệ thống đèn chiếu sáng và đèn tín hiệu Full LED"
       ],
       "pros": [
-        "Giá phải chăng",
-        "Quãng đường tốt hơn (100km)",
-        "Cấu hình hiện đại",
-        "Thoải mái cho đi lại"
+        "Tầm hoạt động khoảng 198 km/lần sạc",
+        "Sử dụng pin LFP",
+        "Kháng nước IP67",
+        "Cốp xe 35L"
       ],
       "cons": [
-        "Chỉ 1 chỗ",
-        "Chưa đủ cho chuyến xa"
+        "Tốc độ phù hợp di chuyển nội đô, hạn chế cho nhu cầu đi xa",
+        "Thiếu thông tin tiền cọc trên nguồn dữ liệu"
       ]
     },
     {
-      "model": "EVO Neo",
-      "variant": "Comfort",
-      "segment": "Xe máy tầm trung",
-      "price_million": 17.8,
+      "model": "EVO",
+      "variant": "Standard",
+      "segment": "Xe máy điện",
+      "price_million": 25.6,
       "type": "motobike",
-      "color": ["Đen Racing", "Trắng Pearl", "Xám Metallic", "Xanh Neon", "Cam Evolution"],
-      "seats": 1,
-      "battery_kwh": 2.7,
-      "range_km": 110,
-      "motor_power_hp": 6,
-      "drivetrain": "Bánh sau",
-      "dimensions": "1750 x 720 x 1140 mm",
-      "trunk_liters": 45,
+      "url": "https://vinfastauto.com/vn_vi/xe-may-dien-evo",
+      "color": [
+        "Xanh oliu",
+        "Đỏ tươi",
+        "Đen bóng",
+        "Trắng ngọc trai"
+      ],
+      "seats": 2,
+      "battery_kwh": 1.5,
+      "range_km": 165,
+      "motor_power_hp": 2.0,
+      "drivetrain": "Inhub",
+      "dimensions": "1856 x 683 x 1133 mm",
+      "trunk_liters": 12,
       "charging_time_dc": "N/A",
-      "charging_time_ac": "5-6 giờ",
-      "monthly_charging_cost_vnd": 300000,
+      "charging_time_ac": "Khoảng 4h30p từ 0% đến 100%",
+      "monthly_charging_cost_vnd": 100000,
       "family_size_min": 1,
       "family_size_max": 2,
-      "use_cases": ["chở bạn", "di chuyển hàng ngày", "giao hàng nhẹ"],
+      "use_cases": [
+        "di chuyển nội thành"
+      ],
       "features": [
-        "Khoang để đồ rộng",
-        "Chế độ lái sport",
-        "Hệ thống phanh ABS",
-        "Đèn LED tự động",
-        "Cảnh báo đầu lồng"
+        "Pin: LFP",
+        "Tốc độ tối đa: 70 km/h",
+        "Thời gian sạc: Khoảng 4h30p từ 0% đến 100%",
+        "Cốp xe: 12L (khi lắp 2 pin)",
+        "Chuẩn kháng nước: IP67",
+        "Hệ thống đèn: Hệ thống đèn Full LED và đèn pha LED Projector"
       ],
       "pros": [
-        "Quãng đường vừa phải",
-        "Trang bị an toàn tốt",
-        "Gọi vừa tải",
-        "Giá cả hợp lý"
+        "Tầm hoạt động khoảng 165 km/lần sạc",
+        "Sử dụng pin LFP",
+        "Kháng nước IP67",
+        "Cốp xe 12L (khi lắp 2 pin)"
       ],
       "cons": [
-        "Chỉ chở 2 người tối đa",
-        "Vẫn đắt hơn Flazz"
-      ]
-    },
-    {
-      "model": "Klara S",
-      "variant": "Performance",
-      "segment": "Xe máy cao cấp",
-      "price_million": 36.5,
-      "type": "motobike",
-      "color": ["Đen Premium", "Trắng Exclusive", "Xám Titanium", "Xanh Midnight", "Đỏ Crimson"],
-      "seats": 1,
-      "battery_kwh": 4.2,
-      "range_km": 180,
-      "motor_power_hp": 12,
-      "drivetrain": "Bánh sau",
-      "dimensions": "1900 x 750 x 1180 mm",
-      "trunk_liters": 60,
-      "charging_time_dc": "N/A",
-      "charging_time_ac": "7-8 giờ",
-      "monthly_charging_cost_vnd": 450000,
-      "family_size_min": 1,
-      "family_size_max": 2,
-      "use_cases": ["người thích tốc độ", "giao hàng chuyên", "chuyên chở"],
-      "features": [
-        "Khung thép cao cấp",
-        "Hệ thống treo khí nén",
-        "Màn hình TFT 5inch",
-        "Kết nối Bluetooth",
-        "Chế độ lái 4 cấp",
-        "ABS + Traction control"
-      ],
-      "pros": [
-        "Quãng đường dài (180km)",
-        "Công suất cao",
-        "Trang bị sang trọng",
-        "An toàn tốt nhất"
-      ],
-      "cons": [
-        "Giá cao nhất xe máy",
-        "Chi phí bảo trì lớn"
-      ]
-    },
-    {
-      "model": "Theon S",
-      "variant": "Ultra",
-      "segment": "Siêu xe máy",
-      "price_million": 56.9,
-      "type": "motobike",
-      "color": ["Đen Ultra", "Trắng Executive", "Xám Graphite", "Xanh Electric", "Vàng Limited"],
-      "seats": 1,
-      "battery_kwh": 5.5,
-      "range_km": 250,
-      "motor_power_hp": 20,
-      "drivetrain": "Dual Motor",
-      "dimensions": "2000 x 800 x 1200 mm",
-      "trunk_liters": 80,
-      "charging_time_dc": "N/A",
-      "charging_time_ac": "9-10 giờ",
-      "monthly_charging_cost_vnd": 600000,
-      "family_size_min": 1,
-      "family_size_max": 2,
-      "use_cases": ["những người thích thể thao", "chuyên gia giao hàng", "chuyên chở sang trọng"],
-      "features": [
-        "Động cơ kép mạnh mẽ",
-        "Phanh hyperscale",
-        "Hệ thống treo tích hợp AI",
-        "Màn hình TFT 7 inch",
-        "Chế độ tự lái bán tự động",
-        "Hệ thống chống trượt cao cấp"
-      ],
-      "pros": [
-        "Quãng đường siêu dài (250km)",
-        "Công suất siêu cao",
-        "Công nghệ tối tân",
-        "Hiệu năng tuyệt đỉnh"
-      ],
-      "cons": [
-        "Giá siêu cao",
-        "Chi phí bảo dưỡng rất lớn",
-        "Tỷ lệ mất giá cao"
+        "Trang bị phanh ở mức cơ bản",
+        "Thiếu thông tin tiền cọc trên nguồn dữ liệu"
       ]
     }
   ]
