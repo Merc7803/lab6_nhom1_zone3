@@ -110,8 +110,8 @@ function publicRow(v) {
 
 async function recommendVehicleJs(vehicles, args, onRecommendUi) {
   const budget = Number(args.budget_million_max);
-  if (!Number.isFinite(budget) || budget < 50) {
-    return JSON.stringify({ error: "budget_million_max khong hop le (toi thieu 50 trieu)." });
+  if (!Number.isFinite(budget) || budget < 10) {
+    return JSON.stringify({ error: "budget_million_max khong hop le (toi thieu 10 trieu)." });
   }
   const prof = {
     budget_million_max: budget,
@@ -138,8 +138,8 @@ async function recommendVehicleJs(vehicles, args, onRecommendUi) {
 async function recommendVehiclePython(vehicles, args, onRecommendUi) {
   const base = getAgentApiBase();
   const budget = Number(args.budget_million_max);
-  if (!Number.isFinite(budget) || budget < 50) {
-    return JSON.stringify({ error: "budget_million_max khong hop le (toi thieu 50 trieu)." });
+  if (!Number.isFinite(budget) || budget < 10) {
+    return JSON.stringify({ error: "budget_million_max khong hop le (toi thieu 10 trieu)." });
   }
   const prof = {
     budget_million_max: budget,
