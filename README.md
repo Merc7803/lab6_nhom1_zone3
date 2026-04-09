@@ -6,6 +6,24 @@ Prototype chatbot tu van mua xe VinFast voi quy trinh:
 - Tinh chi phi so huu (tra gop + chi phi sac + tong 5 nam)
 - Ho tro gui lead / dang ky lai thu
 
+## Poster va hinh anh
+
+### 1) Main project poster
+
+![VinFast Project Poster](Project%20poster.png)
+
+### 2) Before/After flow diagram
+
+![Before After Flow](before-after-flow-vinfast.svg)
+
+### 3) 4-step infographic poster
+
+![4 Step Poster](poster-4step-template-style.svg)
+
+### 4) Poster content in Markdown
+
+- [poster-vinmec-triage-showcase.md](poster-vinmec-triage-showcase.md)
+
 ## Tech stack
 
 - Frontend: React + Vite
@@ -30,24 +48,6 @@ cd server
 pip install -r requirements.txt
 # run FastAPI app on your configured port
 ```
-
-## Poster va hinh anh
-
-### 1) Main project poster
-
-![VinFast Project Poster](Project%20poster.png)
-
-### 2) Before/After flow diagram
-
-![Before After Flow](before-after-flow-vinfast.svg)
-
-### 3) 4-step infographic poster
-
-![4 Step Poster](poster-4step-template-style.svg)
-
-### 4) Poster content in Markdown
-
-- [poster-vinmec-triage-showcase.md](poster-vinmec-triage-showcase.md)
 
 ## Tai lieu lien quan
 
