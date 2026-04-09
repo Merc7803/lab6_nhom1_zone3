@@ -39,6 +39,23 @@ class CalculateBody(BaseModel):
     annual_interest_rate: float = 0.1
 
 
+class CompareBody(BaseModel):
+    vehicle_ids: list[str]
+
+
+@app.post("/api/compare")
+def api_compare(body: CompareBody):
+    vehicles = load_vehicles()
+    results = []
+    for vid in body.vehicle_ids[:3]:
+        v = next((x for x in vehicles if vehicle_slug(x) == vid.strip()), None)
+        if v:
+            results.append(v)
+    if len(results) < 2:
+        return {"error": "Cần ít nhất 2 mã xe hợp lệ để so sánh."}
+    return {"vehicles": results}
+
+
 @app.post("/api/recommend")
 def api_recommend(body: RecommendBody):
     profile = {

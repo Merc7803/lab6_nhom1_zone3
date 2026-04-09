@@ -83,11 +83,11 @@ function findVehicle(vehicles, hint) {
   const exact = vehicles.find((v) => vehicleSlug(v) === h);
   if (exact) return exact;
   const compact = h.replace(/\s+/g, "");
-  const bySlug = vehicles.find((v) => vehicleSlug(v) === compact);
+  const bySlug = vehicles.find((v) => vehicleSlug(v) === compact || vehicleSlug(v).startsWith(compact) || vehicleSlug(v).startsWith(h));
   if (bySlug) return bySlug;
   return (
     vehicles.find((v) => displayVehicleName(v).toLowerCase().includes(h)) ||
-    vehicles.find((v) => String(v.model || "").toLowerCase().includes(h)) ||
+    vehicles.find((v) => String(v.model || "").toLowerCase().replace(/\s+/g, "").includes(compact)) ||
     null
   );
 }
@@ -100,11 +100,19 @@ function publicRow(v) {
     display_name: displayVehicleName(v),
     price_million: v.price_million,
     seats: v.seats,
+    type: v.type || "",
+    motor_power_hp: v.motor_power_hp || 0,
+    battery_kwh: v.battery_kwh || 0,
+    dimensions: v.dimensions || "",
+    charging_time_dc: v.charging_time_dc || "",
+    charging_time_ac: v.charging_time_ac || "",
     range_km: v.range_km,
     segment: v.segment || "",
     monthly_charging_cost_vnd: v.monthly_charging_cost_vnd,
     colors: (v.color || []).slice(0, 5),
     features: (v.features || []).slice(0, 5),
+    pros: v.pros || [],
+    cons: v.cons || [],
   };
 }
 
@@ -208,6 +216,22 @@ async function calculateCostPython(args) {
   return JSON.stringify({ ...data, disclaimer: DISCLAIMER, source: "python" });
 }
 
+async function compareVehiclePython(args) {
+  const base = getAgentApiBase();
+  const r = await fetch(`${base}/api/compare`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      vehicle_ids: Array.isArray(args.vehicle_ids) ? args.vehicle_ids : [],
+    }),
+  });
+  const raw = await r.text();
+  if (!r.ok) return JSON.stringify({ error: raw.slice(0, 400) });
+  const data = JSON.parse(raw);
+  if (data.error) return JSON.stringify(data);
+  return JSON.stringify({ ...data, source: "python" });
+}
+
 export function createAgentToolHandler(vehicles, onRecommendUi) {
   return async function handleTool(name, args) {
     const base = getAgentApiBase();
@@ -237,6 +261,13 @@ export function createAgentToolHandler(vehicles, onRecommendUi) {
       return calculateCostJs(vehicles, args);
     }
     if (name === "compare_vehicles") {
+      if (base) {
+        try {
+          const out = await compareVehiclePython(args);
+          const o = JSON.parse(out);
+          if (!o.error) return out;
+        } catch {}
+      }
       const ids = Array.isArray(args.vehicle_ids) ? args.vehicle_ids : [];
       const rows = [];
       for (const id of ids.slice(0, 3)) {
